@@ -1,0 +1,14 @@
+ul{
+    overflow:hidden;
+}
+
+a{
+    text-decoration:none;
+    background-color:black;
+    color:white;
+}
+
+a:hover{
+    background-color:white;
+    color:black
+}
