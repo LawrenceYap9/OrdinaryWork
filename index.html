@@ -1,31 +1,132 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <title>Portfolio Website</title>
     <meta charset="UTF-8">
-    <meta name="description" content="Portfolio Website use to showcase myself">
-    <meta name="keyword" content="Portfolio,html,css,python,job,vacancy">
-    <meta name="author" content="Lawrence_Yap">
-    <meta name="viewport" content="device-width, initial-scale =1.0">
-    <link rel="stylesheet" href="index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lawrence Yap / Resume</title>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <!--The navigation bar section-->
-    <nav class="navbar">
+    <main>
+        <!-- ***********************  ABOUT / PROFILE  *********************** -->
+        <header>
+            <div class="content_wrap">
+                <h1>Lawrence Yap</h1>
+                <h2>Fresh Graduate</h2>
 
-        <a href="#MainMenu">Main Menu</a>
-        <a href="#Portfolio">Portfolio</a>
-        <a href="#SecondPage">About Us</a>
-        <a href="#ThirdPage">Contact Us</a>
+                <p>Multimedia computing graduate with experience in retail and graphic design seeks for first full-time job. Experience of 5 years’ sales in smartphone industry and intern as graphic designer at an E-commerce company. Strong customer service,
+                    verbal communication and some management experience as the supervisor of the shop.
+                </p>
+                <p>Add another paragraph if needed.</p>
+            </div>
+        </header>
 
-    </nav>
+        <!-- ********************  PROJECTS / PORTFOLIO  ********************* -->
+        <section class="projects">
+            <div class="content_wrap divider">
+                <h2>Featured Projects</h2>
+                <p>View selected projects below. More information can be found at <a href="#Example.com">Example.com</a>.</p>
 
-    <div id="content">
-        <h1>The Heading of the header.</h1>
-        <p>This is a simple paragraph to showcase the html</p>
-    </div>
+                <!-- Copy the whole <section> block to add more projects. -->
+                <section class="project_item">
+                    <img src="./images/img1.jpg" alt="Russel College 1">
+                    <h3>College Poster Ads 1</h3>
+                    <p>Summary or description of the project and/or your role in it. Add as many paragraphs as you need.</p>
+                    <a class="btn" href="#" target="_blank">View project / case study</a>
+                </section>
+
+                <section class="project_item">
+                    <img src="./images/img2.jpg" alt="Russel College 2">
+                    <h3>College Poster Ads 2</h3>
+                    <p>Summary or description of the project and/or your role in it. Add as many paragraphs as you need.</p>
+                    <a class="btn" href="#" target="_blank">View project / case study</a>
+                </section>
+            </div>
+            <!-- End of Project block. -->
+        </section>
+
+        <!-- ***********************  WORK EXPERIENCE  *********************** -->
+        <section class="work_experience">
+            <div class="content_wrap item_details divider">
+                <h2>Work Experience</h2>
+                <p>Optional paragraph for work experience summary. Not a part of the job details. Delete if not being used.</p>
+
+                <!-- Copy this whole <section> block to add more jobs. -->
+                <section class="job_item">
+                    <div class="job details">
+                        <h3>Part-time Sales Promoter</h3>
+                        <p>Worldnet Station Sdn.Bhd</p>
+                        <p>12-2014 – 02-2020</p>
+                    </div>
+                    <div class="job_summary">
+                        <p>Job summary goes here. Add as many paragraphs as you need.</p>
+                        <p>Optional list:</p>
+                        <ul>
+                            <li>• Explanation of the product specification towards the customer.</li>
+                            <li>• Manage daily transaction of the store</li>
+                            <li>• Analysing customer requirement and provide suitable product and services</li>
+                            <li>• Identify customer’s problem and evaluate it with best solution</li>
+                            <li>• Assists the store manager in functioning of the daily operation</li>
+                        </ul>
+                    </div>
+                </section>
+
+                <section class="job_item">
+                    <div class="job details">
+                        <h3>Graphic Designer Intern</h3>
+                        <p>Kait Lifestyle PLT</p>
+                        <p>07-2019 – 12-2019</p>
+                    </div>
+                    <div class="job_summary">
+                        <p>Job summary goes here. Add as many paragraphs as you need.</p>
+                        <p>Optional list:</p>
+                        <ul>
+                            <li>• Designed social media content post </li>
+                            <li>• Produced Advertisement video </li>
+                            <li>• Designed Product Label</li>
+                            <li>• Upload product image to relevant marketplace</li>
+                            <li>• Participated in e-commerce daily operation</li>
+                        </ul>
+                    </div>
+                </section>
+            </div>
+            <!-- End of Job block. -->
+        </section>
+
+        <!-- ******************  EDUCATION & CERTIFICATIONS ****************** -->
+        <section class="education">
+            <div class="content_wrap item_details">
+                <h2>Education</h2>
+
+                <!-- Copy this whole <section> block to add more schools. -->
+                <section>
+                    <h3>YPC International College - Kuala Lumpur</h3>
+                    <p>BSc(Hons) Multimedia Computing, </p>
+                    <p>Current GPA - 3.01(Secondary Upper)</p>
+                </section>
+                <!-- End of School block. -->
+            </div>
+        </section>
+
+        <!-- *****************  CONTACT INFO / SOCIAL MEDIA  ***************** -->
+        <footer class="contact_info">
+            <div class="content_wrap">
+                <h2>Let's Keep in Touch!</h2>
+
+                <!-- Social media and contact links. Add or remove any networks. -->
+                <ul class="contact_list">
+                    <li><a href="Lawrence.yap18@gmail.com">Lawrence.yap18@gmail.com</a></li>
+                    <li><a href="http://yourwebsite.com" target="_blank">yourwebsite.com</a></li>
+                    <li><a href="#" target="_blank">Twitter</a></li>
+                    <li><a href="#" target="_blank">LinkedIn</a></li>
+                    <li><a href="#" target="_blank">Facebook</a></li>
+                </ul>
+            </div>
+        </footer>
+    </main>
 </body>
 
 </html>
